@@ -59,11 +59,11 @@ src
 ```bash
 # JWT Strategy Only
 POST /auth/login
-POST /auth/me
+GET /auth/me
 
 # Passport Local Strategy & Jwt Strategy
 POST /auth-v2/login
-POST /auth-v2/me
+GET /auth-v2/me
 ```
 
 ## Installation
